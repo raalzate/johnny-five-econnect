@@ -1,0 +1,11 @@
+{
+  "name": "cliente-econnect",
+  "version": "1.0.0",
+  "description": "cliente-econnect",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Raul .A Alzate",
+  "license": "ISC"
+}

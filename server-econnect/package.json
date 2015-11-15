@@ -1,0 +1,11 @@
+{
+  "name": "econnect",
+  "version": "1.0.0",
+  "description": "econnect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raul .A Alzate",
+  "license": "ISC"
+}

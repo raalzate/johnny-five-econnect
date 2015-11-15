@@ -34,8 +34,6 @@ app.get('/off', function (req, res) {
 });
 
 
-
-
 var server = app.listen(4040, function () {
   var host = server.address().address;
   var port = server.address().port;

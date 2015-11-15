@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/alloff', function (req, res) {
-   var ip = "192.168.0.101:4040/off";
+   var ip = "192.168.0.102:4040/off";
    var request = require('request');
   request('http://' + ip, function (error, response, body) {
       if (!error && response.statusCode == 200) {
@@ -22,7 +22,7 @@ app.get('/alloff', function (req, res) {
 });
 
 app.get('/onoff', function (req, res) {
-   var ip = "192.168.0.101:4040/onoff";
+   var ip = "192.168.0.102:4040/onoff";
    var request = require('request');
   request('http://' + ip, function (error, response, body) {
       if (!error && response.statusCode == 200) {
@@ -46,7 +46,7 @@ app.get('/node/', function (req, res) {
 
 setInterval(function(){
   var request = require('request');
-  var ip = "192.168.0.101:4040";
+  var ip = "192.168.0.102:4040";
   request('http://' + ip, function (error, response, body) {
       if (!error && response.statusCode == 200) {
         myParse.insert('consummerNode', {nodeId: "DhhbpKrKLP", data: body}, function (err, response) {
